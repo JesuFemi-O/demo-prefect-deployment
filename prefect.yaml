@@ -15,9 +15,9 @@ push:
 # pull section allows you to provide instructions for cloning this project in remote locations
 pull:
 - prefect.deployments.steps.git_clone:
-    repository: https://github.com/JesuFemi-O/demo-prefect-deployment
+    repository: https://github.com/JesuFemi-O/demo-prefect-deployment.git
     branch: main
-    access_token: "{{ prefect.blocks.github-credentials.gh-pat-dev }}"
+    credentials: "{{ prefect.blocks.github-credentials.gh-pat-dev }}"
 
 definitions:
   work_pools:
