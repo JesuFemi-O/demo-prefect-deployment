@@ -6,6 +6,7 @@ log_prints=True
 )
 def run_demo():
     print("Helll-oooo")
+    print_t2()
 
 if __name__ == "__main__":
     run_demo()
