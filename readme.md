@@ -3,7 +3,7 @@
 This demo is a simple poc where I'm testing out ideas for deploying prefect.
 
 prefect is quite simple to get started with but you may need to bury your head in the docs for a little bit if you want to go
-live with it on a production server. If you're thinking about deploying prefect on the cloud I suggest you start by studying the [work poll section](https://docs.prefect.io/latest/guides/#work-pools) in prefect how-to guide as it's very practical, intuitive, and well put together.
+live with it on a production server. If you're thinking about deploying prefect on the cloud I suggest you start by studying the [work pool section](https://docs.prefect.io/latest/guides/#work-pools) in prefect how-to guide as it's very practical, intuitive, and well put together.
 
 I think a neat way to manage your code should be:
 
