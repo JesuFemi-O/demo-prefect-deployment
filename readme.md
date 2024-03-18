@@ -42,6 +42,7 @@ Prefect isn't opinionated which makes it easy to pick up and test ideas with but
 
 - setting up prefect cloud
 - how to use the bash scripts
+- ci/cd with github actions
 - deploying your worker in a vm or ec2 instance
 
 
