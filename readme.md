@@ -38,4 +38,11 @@ in this repo I have used a process-type workpool requiring a worker to manage my
 Prefect isn't opinionated which makes it easy to pick up and test ideas with but one of the most interesting challenge I faced with prefect was how to arrange my code. here, i have used a python package style approach defining a pyproject.toml file in the project root and install my project (executing `pip install -e .`) at the project root to ensure my changes are always hot-reloaded. i think the structure i followed here can still be improved upon (all things prefect related - tasks, flows should live in the same folder e.g etl/flows, etl/tasks, etl/hooks, etl/utils, etc.) but i have explored this structure to test out a few things!
 
 
+# TBD
+
+- setting up prefect cloud
+- how to use the bash scripts
+- deploying your worker in a vm or ec2 instance
+
+
 my work was inspired by Mira Thidel article on creating [event driven serverless etl pipelines](https://www.prefect.io/blog/orchestrating-event-driven-serverless-data-pipelines-prefect-pulumi-aws)
