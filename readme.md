@@ -9,7 +9,7 @@ I think a neat way to manage your code should be:
 
 - use git for [storage](https://docs.prefect.io/latest/guides/#work-pools) 
 
-- manage your deployment using the prefect.yaml file
+- manage your deployment [using the prefect.yaml file](https://docs.prefect.io/latest/guides/prefect-deploy/#working-with-multiple-deployments-with-prefectyaml)
 
 - leverage prefect blocks as much as possible.
 
@@ -36,3 +36,6 @@ in this repo I have used a process-type workpool requiring a worker to manage my
 ## Organizing code
 
 Prefect isn't opinionated which makes it easy to pick up and test ideas with but one of the most interesting challenge I faced with prefect was how to arrange my code. here, i have used a python package style approach defining a pyproject.toml file in the project root and install my project (executing `pip install -e .`) at the project root to ensure my changes are always hot-reloaded. i think the structure i followed here can still be improved upon (all things prefect related - tasks, flows should live in the same folder e.g etl/flows, etl/tasks, etl/hooks, etl/utils, etc.) but i have explored this structure to test out a few things!
+
+
+my work was inspired by Mira Thidel article on creating [event driven serverless etl pipelines](https://www.prefect.io/blog/orchestrating-event-driven-serverless-data-pipelines-prefect-pulumi-aws)
